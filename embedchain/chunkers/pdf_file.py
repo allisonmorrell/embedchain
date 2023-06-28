@@ -5,8 +5,9 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 TEXT_SPLITTER_CHUNK_PARAMS = {
     "chunk_size": 1000,
-    "chunk_overlap": 0,
+    "chunk_overlap": 200,
     "length_function": len,
+    "add_start_index": True
 }
 
 
